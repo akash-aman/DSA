@@ -3,24 +3,17 @@ using System.Collections.Generic;
 
 
 class Program {
-    static void Main ( String[] args ) {
-        Solutions solutions= new Solutions();
-        Console.WriteLine(solutions.containDuplicates());
+    public static void Main ( String[] args ) {
+        Solution solution = new Solution();
+        Console.WriteLine(solution.ContainsDuplicate([1,2,3,1]));
     }
 }
 
-public class Solutions {
-    
-    protected int[] nums; 
-
-    public Solutions () {
-       this.nums = new int[]{1,2,3,1};
-    }
-
-    public bool containDuplicates() {
+public class Solution {
+    public bool ContainsDuplicate(int[] nums) {
         var set = new HashSet<int>();
 
-        foreach ( int num in this.nums ) {
+        foreach ( int num in nums ) {
             if ( ! set.Contains(num) ) {
                 set.Add(num);
             } else {
@@ -31,4 +24,3 @@ public class Solutions {
         return false;
     }
 }
-

@@ -1,29 +1,15 @@
-console.log('Contain Duplicates')
+function containsDuplicate(nums: number[]): boolean {
+    const set = new Set();
 
-const sol = {
-    /**
-     * @param nums Array<number> | number[]
-     * @returns 
-     */
-    containDuplicates( nums : Array<number> = [] ) : boolean {
-        const set = new Set();
-
-        for ( let num of nums ) {
-            if ( ! set.has(num) ) {
-                set.add(num);
-            } else {
-                return true;
-            }
-
+    for ( let num of nums) {
+        if ( ! set.has(num) ) {
+            set.add(num)
+        } else {
+            return true;
         }
-
-        return false
-    },
-
-    init: function() : void {
-        console.log(this.containDuplicates([1,2,3,1]));
     }
-}
 
+    return false
+};
 
-sol.init()
+containsDuplicate([1,2,3,1]);
