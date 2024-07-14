@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Array | Sets", "Array | Sets", "{297A5531-ADCC-4454-837A-692DF1C79771}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "contain_duplicate", "contain_duplicate", "{334BE4A9-AC1C-4184-B37B-5B4EF2A09EE5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "cs", "Array | Sets\contain_duplicate\cs\cs.csproj", "{29A015C3-7A92-4BBD-9C72-514CD514C4FF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "valid_anagram", "valid_anagram", "{6D5959C2-A105-4797-A7BF-1628937AC864}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "cs", "Array | Sets\valid_anagram\cs\cs.csproj", "{232407B5-194E-403E-80F1-E5E3B278881D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{29A015C3-7A92-4BBD-9C72-514CD514C4FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29A015C3-7A92-4BBD-9C72-514CD514C4FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29A015C3-7A92-4BBD-9C72-514CD514C4FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29A015C3-7A92-4BBD-9C72-514CD514C4FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{232407B5-194E-403E-80F1-E5E3B278881D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{232407B5-194E-403E-80F1-E5E3B278881D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{232407B5-194E-403E-80F1-E5E3B278881D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{232407B5-194E-403E-80F1-E5E3B278881D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{334BE4A9-AC1C-4184-B37B-5B4EF2A09EE5} = {297A5531-ADCC-4454-837A-692DF1C79771}
+		{29A015C3-7A92-4BBD-9C72-514CD514C4FF} = {334BE4A9-AC1C-4184-B37B-5B4EF2A09EE5}
+		{6D5959C2-A105-4797-A7BF-1628937AC864} = {297A5531-ADCC-4454-837A-692DF1C79771}
+		{232407B5-194E-403E-80F1-E5E3B278881D} = {6D5959C2-A105-4797-A7BF-1628937AC864}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C007A9C7-F966-42F9-B166-5BD6FFB840CB}
+	EndGlobalSection
+EndGlobal

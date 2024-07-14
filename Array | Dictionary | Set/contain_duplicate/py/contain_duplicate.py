@@ -2,10 +2,10 @@ from typing import List
 
 class Solution:
     def containsDuplicate(self, nums: List[int]) -> bool:
-        set = {}
+        dict = {}
         for num in nums:
-            if not set.get(num):
-                set[num] = 1
+            if not dict.get(num):
+                dict[num] = 1
                 # set.update({num:1})
             else:
                 return True
